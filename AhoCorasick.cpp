@@ -50,6 +50,7 @@ public:
         }
         now_index = next_index;
       }
+      // --- 字符串信息，默认实现存储 flag 标记 ----
       nodes[now_index].flag.emplace_back(flag);
     }
 
